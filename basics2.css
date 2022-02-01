@@ -1,0 +1,47 @@
+div{
+    text-align: center;
+}
+.box1{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.box2{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.box3{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.parent{
+
+    filter: blur(5px);
+}
+.box4{
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    box-shadow: 8px 7px #888888;
+}
+.child{
+    position: absolute;
+    top: 260px;
+    left: 490px;
+    background-color: white;

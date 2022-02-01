@@ -1,0 +1,35 @@
+div{
+    text-align: center;
+}
+.box1{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.box2{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.box3{
+    padding-top: 4%;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px;
+    height: 300px;
+    box-shadow: 8px 7px #b89a9a;
+}
+.hr{
+    width:147px ;
+    position: relative;
+    left: 11px;
+    top: -3px;
