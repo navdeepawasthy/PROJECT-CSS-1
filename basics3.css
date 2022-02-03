@@ -17,54 +17,47 @@
 .hr2{
     position: relative;
     top: -53px;
-    right: -250px;
+    right: -240px;
     width: 139px;
 }
 
-.back{
-     position: relative;
-    top: -15px;
-    left: 641px;
-    font-size: 37px;
-    color: #716d6d;
-    font-family: sans-serif;
-}
-
+  }
+  
 .symbol{
     position: relative;
-    top: -20px;
-    left: -574px; 
+    top: -10px;
+    left: -534px; 
     color: tomato;
 }
 .box{
     height: 320px;
-    width: 240px;
+    width: 280px;
     border: 2px solid tomato;
     border-radius: 6px;
     position: relative;
-    top: 3px;
+    top: 16px;
     left: 606px;
 }
 .box1{
     font-size: 34px;
     color: tomato;
     position: absolute;
-    top: 292px;
-    left:640px;
+    top: 200px;
+    left:660px;
     font-family: sans-serif;
 }
 .hr4{
     position: absolute;
-    top: 330px;
+    top: 250px;
     left: 640px; 
-    width: 215px;
+    width: 256px;
 }
 .box2{
     font-size: 25px;
     color: tomato;
     position: absolute;
-    top: 366px;
-    left: 640px;
+    top: 290px;
+    left: 670px;
     font-family: sans-serif;
     text-decoration: line-through;
     font-weight: bold; 
@@ -73,24 +66,17 @@
     font-size: 25px;
     color: #424242;
     position: absolute;
-    top: 417px;
-    left: 640px;
+    top: 360px;
+    left: 670px;
     font-family: sans-serif;
 }
-.plus{
-    border: 1px solid tomato;
-    border-radius: 2px;
-    font-size: 27px;
-    border-radius: 23px;
-    background-color: tomato;
-    width: 28px;
-    height: 28px;
-    text-align: center;
-    color: white;
-    position: absolute;
-    top: 572px;
-    left: 796px;
-}
-.parent{
 
+.parent2{
+    z-index: -1;
     filter: blur(5px);
+}
+.child{
+    position: absolute;
+    top: 260px;
+    left: 490px;
+    background-color: white;

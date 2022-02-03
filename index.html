@@ -1,46 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>To Do App</title>
     <link rel="stylesheet" href="basics.css">
-    <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
-<body style="align-self: center; padding: 7% 17%; font-size: 25px; ">
-    <p style="text-align: center; font-size: 200%; display: inline; padding-left: 75px;"><b>  Tasks</b> Lists  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; 
-        <a href="index4.html"><span style="color: red; " class="material-icons">
-        add_circle
-        </span></a> Add List</p> 
+<body>
     <br><br>
-    <div class="text" style="align-items: center; margin-top: 3%; margin-left: 7%; display: flex;">
-        <div class="box1">
-            <a  style="text-decoration: none;" href="index3.html" class="ind3">
-                <p style="color: red;">Trip to Paris</p>
-            </a>
-            <hr><br>
-            <del style="color: red;">Completed task</del><br><br>
-            <form action="" class="form">
-                <input type="checkbox" id="check">
-                <label for="check">Pending Task</label>
-            </form>
-        </div>
-        <div class="box2"> 
-            <p style="color: red;">My Todo List</p> <hr><br>
-            <del style="color: red;">Completed task</del><br><br>
-            <input type="checkbox" id="check">
-        <label for="check">Pending Task</label>
-        </div>
-        <div class="box3">
-            <p style="color: red;">My Todo List</p><hr><br>
-            <del style="color: red;">Completed task</del><br><br>
-            <input type="checkbox" id="check">
-        <label for="check">Pending Task</label>
-        </div>
+  <b> <center <h1>Todo App UI Web</h1></center></b>
+    <div class="header">
+        <span class="heading"><b class="mainheading">Tasks</b> <font color="grey">Lists</font></span>
+        <span class="add-list "> <a href="index2.html"> <i class="fas icon-style fa-plus-circle"></a></i><span
+                class="hide-them">  <font color="grey">Add List</font></span></span>
     </div>
-  <a href="index2.html">></a>
+   
+    <div class="boxes">
+        <div class="box">
+            <h1 class="subhead link-deco"><a href="index3.html"> Trip To Paris</a></h1>
+            <div class="hide-them">
+                <hr style="width: 85%; text-align: right; margin-right: 0;">
+                <h2 class="completed">Completed Task</h2>
+                <div class="checkbox"><input type="checkbox">
+                    <h2 style="display: inline;">Pending Task</h2>
+                </div>
 
+            </div>
+        </div>
+        <div class="box">
+            <h1 class="subhead">My Todo List</h1>
+            <div class="hide-them">
+                <hr style="width: 85%; text-align: right; margin-right: 0;">
+                <h2 class="completed">Completed Task</h2>
+                <div class="checkbox"><input type="checkbox">
+                    <h2 style="display: inline;">Pending Task</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h1 class="subhead">My Todo List</h1>
+            <div class="hide-them">
+                <hr style="width: 85%; text-align: right; margin-right: 0;">
+                <h2 class="completed">Completed Task</h2>
+                <div class="checkbox"><input type="checkbox">
+                    <h2 style="display: inline;">Pending Task</h2>
+                </div>
+            </div>
+        </div>
+<a href="index2.html"></a>
 </body>
+
 </html>

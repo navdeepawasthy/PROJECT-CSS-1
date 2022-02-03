@@ -1,35 +1,210 @@
-div{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.link-deco{
+    text-decoration: none;
+    color: white;
+ 
+}
+.link-deco a{
+    text-decoration: none;
+    color: orangered;
+ 
+}
+
+
+
+.header {
+    padding: 4rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+    width: 200%;
+
+}
+
+.heading {
+    font-size: 3rem;
+    position: relative;
+    left: 70px;
+    top:60px;
+    color: grey;
+    /* float: left;
+ */
+}
+
+.add-list {
+    /* float: right; */
+    font-size: 2rem;
+    top:50px;
+    position: relative;
+    right: 140px;
+}
+
+.icon-style {
+    color: orangered;
+    cursor: pointer;
+}
+
+.boxes {
+    padding: 3rem 0rem 4rem 0rem;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+
+.box {
+    height: 380px;
+    width: 250px;
+    border: 2px solid tomato;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+
+}
+
+.subhead {
+    text-align: center;
+    color: tomato;
+    font-weight: lighter;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+    color: tomato;
+}
+
+.checkbox {
+    text-align: center;
+
+}
+
+.mainheading {
+    font-weight: 1rem;
+    color:black;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.triptoparis {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    position: relative;
+}
+
+.back-opt {
+    padding: 25px;
+    /* float: right; */
+    font-size: 2rem;
+    font-weight: bold;
     text-align: center;
 }
-.box1{
-    padding-top: 4%;
-    border: 1px solid crimson;
-    border-radius: 10px;
-    width: 350px;
-    margin: 20px;
-    height: 300px;
-    box-shadow: 8px 7px #b89a9a;
+
+.box-main {
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    border-radius: 0.5rem;
+    margin: 3rem 0 0 0;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    text-align: center;
+    margin: auto;
 }
-.box2{
-    padding-top: 4%;
-    border: 1px solid crimson;
-    border-radius: 10px;
-    width: 350px;
-    margin: 20px;
-    height: 300px;
-    box-shadow: 8px 7px #b89a9a;
+
+.completed2 {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color: orangered;
 }
-.box3{
-    padding-top: 4%;
-    border: 1px solid crimson;
-    border-radius: 10px;
-    width: 350px;
-    margin: 20px;
-    height: 300px;
-    box-shadow: 8px 7px #b89a9a;
+
+.icon-style-2 {
+    color: orangered;
+    cursor: pointer;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    font-size: 2.5rem;
 }
-.hr{
-    width:147px ;
-    position: relative;
-    left: 11px;
-    top: -3px;
+
+.box-item-add {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    right: 35%;
+    width: 450px;
+    height: 220px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+.subheading {
+    text-align: center;
+    color: orangered;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+
+.new-item-input {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+
+.input-box {
+    margin-top: 1rem;
+    height: 40px;
+    width: 300px;
+    box-shadow: 5px 5px 5px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 0.5rem;
+}
+
+.add-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 1rem;
+    color: white;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(8px);
+}
